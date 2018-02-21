@@ -20,7 +20,7 @@ type
      
 implementation
 
-constructro TTBClientes.create( AOwner: TComponent ) ;
+constructor TTBClientes.create( AOwner: TComponent ) ;
 begin
      inherited create( AOwner ) ;
      FID_Cliente := TIntegerField.Create( self );
